@@ -6,7 +6,7 @@ export default {
   logo: `logo.svg`,
   website: 'https://cosmos.network',
   apiURL: 'https://api.cosmos.smartnodes.co.uk', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
-  rpcURL: 'ws://rpc.cosmos.smartnodes.co.uk:26657',
+  rpcURL: 'https://rpc.cosmos.smartnodes.co.uk',
   stakingDenom: 'uatom',
   coinLookup: [
     {
@@ -26,7 +26,7 @@ export default {
       gasEstimate: 350000,
       feeOptions: [
         {
-          denom: 'MUON',
+          denom: 'ATOM',
           amount: 0.001,
         },
       ],
