@@ -1,17 +1,17 @@
 export default {
-  id: 'cosmos-hub-testnet', // DEPRECATE, only used for Lunie extension, NOT CHAIN ID
-  name: 'Cosmos Stargate',
+  id: 'cosmoshub-4', // DEPRECATE, only used for Lunie extension, NOT CHAIN ID
+  name: 'cosmoshub-4',
   description:
     'Cosmos is a network of independent parallel blockchains, powered by BFT consensus algorithms like Tendermint.',
   logo: `logo.svg`,
   website: 'https://cosmos.network',
   apiURL: 'https://api.cosmos.smartnodes.co.uk', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
   rpcURL: 'ws://rpc.cosmos.smartnodes.co.uk:26657',
-  stakingDenom: 'MUON',
+  stakingDenom: 'uatom',
   coinLookup: [
     {
-      viewDenom: 'MUON',
-      chainDenom: 'umuon',
+      viewDenom: 'ATOM',
+      chainDenom: 'uatom',
       chainToViewConversionFactor: 1e-6,
       icon: `currencies/muon.png`,
     },
